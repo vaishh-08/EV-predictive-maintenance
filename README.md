@@ -42,6 +42,17 @@ EV-Predictive-Maintenance/
 ├── .gitignore              # Ignores __pycache__ and system files
 └── README.md               # Project documentation
 
+---
+
+## 📊 Dataset Note
+
+Due to GitHub's file size constraints and best practices for repository management, the CSV files located in the `/Data` directory represent a **condensed sample** of the raw telemetry data. 
+
+* The included sample dataset is fully functional and perfectly formatted to allow anyone to run the Edge dashboard and test the LSTM model locally.
+* The complete, uncompressed run-to-failure dataset (which spans many hours of high-frequency sensor readings) is retained offline. 
+
+---
+
 🧠 Machine Learning Architecture
 
 The system transitions from standard snapshot-based classification (e.g., Random Forest) to a Time-Series Deep Learning model to capture dynamic mechanical degradation.
